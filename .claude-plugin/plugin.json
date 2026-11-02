@@ -1,0 +1,24 @@
+{
+  "name": "deep24-habit-contracts",
+  "displayName": "Deep24 Habit Contracts",
+  "version": "1.0.1",
+  "description": "Propose habit goals, report check-ins and manage optional real-money stakes on Deep24 from Claude Code. Connects to the hosted Deep24 Connector over OAuth; you approve every permission on deep24.com.",
+  "author": {
+    "name": "Deep24",
+    "url": "https://deep24.com"
+  },
+  "homepage": "https://deep24.com/habits/connector-guide",
+  "keywords": [
+    "habits",
+    "accountability",
+    "goals",
+    "deep24",
+    "mcp"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://deep24.com/habits/connector-guide",
+  "supportUrl": "https://deep24.com/support",
+  "privacyPolicyUrl": "https://deep24.com/privacy",
+  "termsOfServiceUrl": "https://deep24.com/terms",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "deep24": {
+      "type": "http",
+      "url": "https://api.deep24.com/api/connector/mcp",
+      "oauth": {
+        "scopes": "habits:read habits:write"
+      }
+    }
+  }
+}
