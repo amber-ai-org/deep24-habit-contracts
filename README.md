@@ -18,10 +18,10 @@ Deep24” to open an interactive view in a host that supports MCP Apps.
 
 ## Install in Claude Code
 
-If you have a copy of this plugin folder, start Claude Code from its parent directory.
+In the folder containing this plugin’s README and manifest, run:
 
 ```sh
-claude --plugin-dir ./deep24-habit-contracts
+claude --plugin-dir .
 ```
 
 Then run `/mcp`, choose `deep24` and sign in. Your browser opens deep24.com,
@@ -45,8 +45,7 @@ use the secure Deep24 review supplied for that goal.
 For new paid goals, Deep24 requires proof before the cutoff, five minutes after
 each deadline. A missed occurrence can incur one charge within the agreed cap.
 Card entry takes place on Stripe. Deep24 reviews corrections for new-goal
-charges. For an older agreement, a refund that would return funds immediately
-requires a request on the Deep24 website.
+charges. Eligible legacy refund requests made through Claude go to a human reviewer.
 
 ## Privacy Policy
 
