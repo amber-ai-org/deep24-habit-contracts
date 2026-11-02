@@ -45,7 +45,8 @@ use the secure Deep24 review supplied for that goal.
 For new paid goals, Deep24 requires proof before the cutoff, five minutes after
 each deadline. A missed occurrence can incur one charge within the agreed cap.
 Card entry takes place on Stripe. Deep24 reviews corrections for new-goal
-charges. Use the Deep24 website to request a refund for an older agreement.
+charges. For an older agreement, a refund that would return funds immediately
+requires a request on the Deep24 website.
 
 ## Privacy Policy
 

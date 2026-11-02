@@ -77,8 +77,8 @@ entry takes place on Stripe. Never collect card details in chat.
 - `list_habit_charges` and `request_charge_refund` for money questions. A
   valid charge on a new goal is final; corrections need a reason of
   `duplicate`, `unauthorized` or `technical_error`. Use the tool only on explicit
-  request to record a new-goal correction. For a legacy charge, direct the
-  person to their Deep24 goal page to request a refund there.
+  request to record a correction. If a legacy request would refund money
+  immediately, the person must finish the request on the Deep24 website.
 
 ## What you must not do
 
