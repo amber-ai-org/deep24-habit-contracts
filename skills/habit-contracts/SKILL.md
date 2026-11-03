@@ -78,7 +78,7 @@ entry takes place on Stripe. Never collect card details in chat.
   valid charge on a new goal is final; corrections need a reason of
   `duplicate`, `unauthorized` or `technical_error`. Use the tool only on explicit
   request to record a correction. Eligible legacy requests made through Claude go to human review.
-  Submitting a request does not itself refund the card.
+  Submitting a request does not itself refund the card. For an eligible legacy charge with a timely check-in, explain that the Deep24 website can still issue the immediate refund. The person can also dispute a charge with their payment provider.
 
 ## What you must not do
 

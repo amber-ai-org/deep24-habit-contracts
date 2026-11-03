@@ -18,9 +18,11 @@ Deep24” to open an interactive view in a host that supports MCP Apps.
 
 ## Install in Claude Code
 
-In the folder containing this plugin’s README and manifest, run:
+To load the plugin for one Claude Code session, clone its public repository and start Claude in that folder:
 
 ```sh
+git clone https://github.com/amber-ai-org/deep24-habit-contracts.git
+cd deep24-habit-contracts
 claude --plugin-dir .
 ```
 
@@ -45,7 +47,7 @@ use the secure Deep24 review supplied for that goal.
 For new paid goals, Deep24 requires proof before the cutoff, five minutes after
 each deadline. A missed occurrence can incur one charge within the agreed cap.
 Card entry takes place on Stripe. Deep24 reviews corrections for new-goal
-charges. Eligible legacy refund requests made through Claude go to a human reviewer.
+charges. Refund requests made through Claude go to a human reviewer. If a timely check-in qualifies a legacy charge for an immediate refund, you can still request it on the Deep24 website. You can also dispute a charge with your payment provider.
 
 ## Privacy Policy
 

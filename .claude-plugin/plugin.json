@@ -20,5 +20,6 @@
   "supportUrl": "https://deep24.com/support",
   "privacyPolicyUrl": "https://deep24.com/privacy",
   "termsOfServiceUrl": "https://deep24.com/terms",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/amber-ai-org/deep24-habit-contracts"
 }
