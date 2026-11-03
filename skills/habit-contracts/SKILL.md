@@ -26,18 +26,18 @@ Before `propose_habit_contract`, agree with the person:
 - One-off or recurring. For recurring: which days or every N days, and each
   deadline time. Every scheduled time is its own occurrence.
 - The IANA time zone.
-- Stake in whole dollars, or $0. Say plainly: a stake is charged per missed
+- An optional stake in whole dollars. A free goal costs nothing. Say plainly: a stake is charged per missed
   occurrence; a recurring goal has a weekly cap that defaults to three times the
   stake; a one-off goal is charged at most once. Do not invent a custom cap;
-  pass `weekly_cap_usd` only when the person names an amount.
+  set `weekly_cap_usd` only when the person names an amount.
 - How success is proven: self-report, or a photo you assess against an agreed
   observable rule. Write the agreed proof deadline into
   `verification_rules.success_criteria`. Do not promise proof after the server's
   cutoff, which is exactly five minutes after each deadline.
 
-Pass a stable `client_request_id` so a retry does not duplicate the goal.
+Use a stable `client_request_id` so a retry does not duplicate the goal.
 
-A $0 goal with self-report or a photo you assess starts at once unless another
+A free goal with self-report or a photo you assess starts at once unless another
 consequence requires consent. Money, server media verification, email consequences
 and device blocking need exact terms acceptance. Use the returned status and
 next action. For an interactive view, call `show_habit_contracts`.
@@ -48,7 +48,7 @@ Only after the person explicitly says to start that exact goal and accepts the
 terms from `get_habit_contract` may you call `activate_habit_contract`. Show the
 stake, cap if applicable, schedule, time zone, evidence rule, agreed proof time
 and server cutoff. Check for an eligible goal and `payment_authorization.status`
-of `ready`. Pass the returned terms version and hash, `accepted: true`, a stable
+of `ready`. Include the returned terms version and hash, `accepted: true`, a stable
 `client_request_id`, and the person's instruction unchanged in `user_instruction`.
 The person must grant `habits:activate`. If consent fails, leave the goal pending.
 
